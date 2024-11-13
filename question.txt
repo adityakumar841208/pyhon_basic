@@ -1,0 +1,125 @@
+### Conditionals & Loops
+
+1. **FizzBuzz**: Write a program that prints numbers from 1 to 100 with special rules:
+   - For multiples of 3, print "Fizz."
+   - For multiples of 5, print "Buzz."
+   - For multiples of both 3 and 5, print "FizzBuzz."
+
+2. **Prime Number Check**: Write a function that checks if a given number is prime.
+
+3. **Palindrome Checker**: Write a function to check if a string reads the same forwards and backwards.
+
+4. **Sum of Digits**: Given an integer, calculate the sum of its digits.
+
+5. **Pattern Printing**: Write a program to print a pyramid pattern using nested loops.
+
+---
+
+### Lists
+
+1. **Find Max and Min in List**: Write a function to find the maximum and minimum numbers in a list.
+
+2. **Remove Duplicates**: Given a list of integers, remove all duplicates and return a list of unique values.
+
+3. **Merge and Sort Two Lists**: Write a function to merge two lists and sort the result.
+
+4. **Second Largest Element**: Find the second largest element in a list of numbers.
+
+5. **Find Even and Odd Numbers**: Write a program that separates even and odd numbers from a list.
+
+---
+
+### Tuples
+
+1. **Unpack a Tuple**: Given a tuple with multiple elements, unpack its values into variables.
+
+2. **Tuple Index Access**: Write a program to access each element in a tuple using its index.
+
+3. **Concatenate Two Tuples**: Concatenate two tuples to create a new tuple.
+
+4. **Convert Tuple to List**: Convert a tuple to a list, make changes, and convert it back to a tuple.
+
+5. **Count and Index in Tuple**: Use `count()` and `index()` methods on a tuple to find the occurrences and positions of elements.
+
+---
+
+### Dictionaries
+
+1. **Word Frequency Counter**: Write a function to count the frequency of each word in a given string and store it in a dictionary.
+
+2. **Merge Dictionaries**: Merge two dictionaries, adding values of common keys.
+
+3. **Dictionary Sorting**: Sort a dictionary by its values in ascending order.
+
+4. **Find Key with Max Value**: Given a dictionary, find the key with the highest value.
+
+5. **Dictionary Inversion**: Given a dictionary, invert it so keys become values and values become keys.
+
+---
+
+### 
+
+1. **Unique Elements in List**: Convert a list to a set to keep only unique elements.
+
+2. **Union and Intersection of Sets**: Find the union and intersection of two sets.
+
+3. **Subset Check**: Write a program to check if one set is a subset of another.
+
+4. **Symmetric Difference of Sets**: Find elements in either set but not in both.
+
+5. **Remove Duplicates Using Set**: Given a list, use a set to remove duplicates.
+
+---
+
+### File Input/Output
+
+1. **Read from a File**: Write a program to read and display the contents of a text file.
+
+2. **Write to a File**: Write a program that writes a list of numbers to a file, each on a new line.
+
+3. **Count Words in a File**: Write a program that reads a text file and counts the number of words in it.
+
+4. **File Copy**: Write a program to copy the contents of one file to another.
+
+5. **Count Lines, Words, and Characters**: Write a program that counts lines, words, and characters in a file.
+
+---
+
+### Object-Oriented Programming (OOPs)
+
+1. **Create a Class**: Define a class `Car` with attributes like `brand`, `model`, and `year`. Include methods to display details.
+
+2. **Class with Methods**: Define a class `Rectangle` with attributes `length` and `width`, and methods to calculate the area and perimeter.
+
+3. **Inheritance**: Create a base class `Animal` with a method `sound()`, and derived classes `Dog` and `Cat` that override the `sound()` method with their specific sounds.
+
+4. **Encapsulation**: Create a class `BankAccount` with private attributes `balance` and a method to deposit and withdraw money (with checks to prevent overdraw).
+
+5. **Polymorphism**: Create a base class `Shape` with a method `area()`. Implement derived classes `Circle` and `Square` with their own versions of the `area()` method.
+
+6. **Magic/Dunder Methods**: Implement a `__str__` method for the `Car` class to return a formatted string when printing an object.
+
+7. **Constructor and Destructor**: Define a class `Person` with a constructor to initialize the name and age, and a destructor to print a message when an object is deleted.
+
+---
+
+### Mixed Concepts
+
+1. **Anagram Checker**: Write a function to check if two strings are anagrams of each other.
+
+2. **Simple Calculator**: Create a basic calculator that takes two numbers and an operator (+, -, *, /) and performs the operation.
+
+3. **Fibonacci Sequence**: Write a function to generate the Fibonacci sequence up to a certain number of terms.
+
+4. **Armstrong Number**: Write a function to check if a number is an Armstrong number.
+
+5. **Convert Lists to Dictionary**: Given two lists (one of keys and one of values), create a dictionary by mapping them.
+
+---
+
+### Practice Tips
+
+- For **File I/O** questions, make sure to close the file after reading or writing to prevent resource leaks.
+- In **OOPs**, practice implementing concepts like inheritance, encapsulation, and polymorphism in small examples.
+- Focus on writing clean, modular code. Define functions or methods for specific tasks rather than putting all logic in one place.
+- Run tests for edge cases like empty lists, small values, or large inputs.
