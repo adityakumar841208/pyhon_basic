@@ -17,24 +17,21 @@ class Tree:
             root.left = self.insert(root.left, key)
         elif key > root.key:
             root.right = self.insert(root.right, key)
-        
+
         return root
 
     def inorder(self, root):
         if root:
-            self.inorder(root.left)  # Traverse left subtree
-            print(root.key)  # Print current node's key
-            self.inorder(root.right)  # Traverse right subtree
+            self.inorder(root.left)
+            print(root.key)
+            self.inorder(root.right) 
 
 
-# Example usage:
 a = [4, 2, 5, 7, 1]
 
 tree = Tree()
 
-# Insert nodes into the tree
 for data in a:
     tree.root = tree.insert(tree.root, data)
 
-# Print the inorder traversal
 tree.inorder(tree.root)
